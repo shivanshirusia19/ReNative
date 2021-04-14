@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
-import { getScaledValue } from "renative";
+import { Api, getScaledValue } from "renative";
 
 class Screen extends Component {
   constructor(props) {
